@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/klao
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mihaly.barasz.com
+  * I am klao (https://keybase.io/klao) on keybase.
+  * I have a public key with fingerprint C4D7 B1BC D394 1035 DD5F  08E0 42B2 316F 7004 9997
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01011e8b70aff4d95853912fec25abd30aa1a37e46e9139bb55f91e664562908e41f0a",
+            "fingerprint": "c4d7b1bcd3941035dd5f08e042b2316f70049997",
+            "host": "keybase.io",
+            "key_id": "42b2316f70049997",
+            "kid": "01011e8b70aff4d95853912fec25abd30aa1a37e46e9139bb55f91e664562908e41f0a",
+            "uid": "ce151dc2913bad448f17d80fe7d29f00",
+            "username": "klao"
+        },
+        "service": {
+            "hostname": "mihaly.barasz.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1463348794,
+    "expire_in": 157680000,
+    "prev": "d78c45a02d6ff8703edcc6c2460dae38b9d71b21f3edc966f17f4781cae34d08",
+    "seqno": 23,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owGtUltMHFUYXhC2XNrQRE1oo8VMa9II7J4zc+a2BmxFfGjwSUnlYtYzc86wI7sz
+4+wsBXFbHkSkJIK1tmKNldYaI6I8eEkjFi+pNXWDWCxVEm251EATqU0KIWtMPUPq
+m4+el5Pzf5fz/X/+gU13BApyHn1jQk/tiUVyvl/SAnuV5ZpOTrNJBxfp5Frp+kXj
+hCa9aKtJuAgHIICQKpoMsGEgooqKKKiQN6jOi1gjAsAYYkGmSKIqFFRNE0VDhVSS
+kCjxKlAoggbAXAVnmFYLdR3XtDxmqyMia1DTiaAiCASRENFgZIB4jRegZMgAIFVV
+ZSaM2UlfwcJpOElDps1q7BFdj/cf/P85d2rdTqdQhETnGVfDBCHFgDJRgEFlwqsG
+AD4xSV0LJ6ifNY5tLl3BsUqbqVN/qH4Xt9GEGcPxjpCGXZx8LqTbCSZ2XNuzdTvO
+4JjnORFf7XU4Pn0f1aK3jaKaaRE2RyZoo27StC0uAhlT90zfGSJJEJAiq6iCo+2O
+6dKo6TNEWVIAO/43tI1ZElnRkYgbAE8kw1BkIFCi65LOIwkQTAVFU4kMNR4aPqBK
+EuvWQLICdQYiAhTO7+1Zy+YivMCC4hZmmjRbLOylXMqli3pzDucFcgoCwfxcf8UC
+RYWb/927icHi8f31P74dDIbydoXpeMMlJ1b4SOmVW/F4sbm6s6Z1+MnpZuN47fXt
+r1lH0HJ4c+jd9NJk9eunMh9mhxbnjxUePzE0PL9crw5c29Dzx9ang5d+KOkbODp1
+Xb6KFo9l61f2jdY9f677r+KqWP4LXR/MkcNcZCZ+YaH3zy8zp6YeIINa9fs/PZP4
+fOOWLto/23XX2cfIQn/v5OPYedXtuwlKVnqaxha/eSmRKs3fMcubyZsbfj80minO
+jiXSQ9tPtt976Ojk6qcr117+zX0zNr4Nne2PDjQ17i6yGl+52HCgcSqc2lUeGq7M
+nfzi/FRlzRmqJjI92Xc+G9l69cpb87fKvMHLcwfK6ioPjt2zUBXeP7Fl269P3P9d
+dunB3MJN4u7LtXu+nr3z5+aPd9bZfycy1eFPWqrC5TsudNYup39572BD+31z0hFr
+bW1k+kzB6fyLvXknv31q5mFxumljd6nTN+ZYytq54Okb83ebH3WXSGXnm2fcuLza
+MfrQSPnoVy9W3vgH
+=Rb/x
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/klao
+
+==================================================================
