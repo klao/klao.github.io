@@ -1,0 +1,77 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+OpenPGP Key Transition Statement for Mihaly Barasz
+
+I have created a new OpenPGP key and will be transitioning away from
+my old key.  The old key has not been compromised and will continue to
+be valid for some time, but I prefer all future correspondence to be
+encrypted to the new key, and will be making signatures with the new
+key going forward.
+
+I would like this new key to be re-integrated into the web of trust.
+This message is signed by both keys to certify the transition.  My new
+and old keys are signed by each other.  If you have signed my old key,
+I would appreciate signatures on my new key as well, provided that
+your signing policy permits that without re-authenticating me.
+
+The old key, which I am transitioning away from, is:
+
+pub   rsa2048/553C5D65 2006-03-17 [SC]
+      Key fingerprint = 44A5 884E 11E9 99BD EF19  8227 FF10 561E 553C 5D65
+
+The new key, to which I am transitioning, is:
+
+pub   rsa4000/70049997 2016-05-12 [C]
+      Key fingerprint = C4D7 B1BC D394 1035 DD5F  08E0 42B2 316F 7004 9997
+
+The entire key may be downloaded from: http://mihaly.barasz.com/keys/70049997.asc
+
+You can also get the key and check that it has been "certified" by my
+various online identities on Keybase: https://keybase.io/klao
+
+To fetch the full new key from a public key server using GnuPG, run:
+
+  gpg --keyserver keys.gnupg.net --recv-key 70049997
+
+If you already know my old key, you can now verify that the new key is
+signed by the old one:
+
+  gpg --check-sigs 70049997
+
+If you are satisfied that you've got the right key, and the User IDs
+match what you expect, I would appreciate it if you would sign my key
+and uploaded your signatures to a public keyserver or emailed the
+signed key to me.
+
+  gpg --sign-key 70049997
+  gpg --keyserver keys.gnupg.net --send-key 70049997
+
+If you'd like any further verification or have any questions about the
+transition, please contact me directly!
+
+To verify the integrity of this statement:
+
+  wget -q -O- http://mihaly.barasz.com/keys/key-transition-2016-05-16.txt | gpg --verify
+
+Mihaly
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCgAGBQJXOf3qAAoJEP8QVh5VPF1lt8cIANKoErXSJYLwEyRdooHIYzh+
+PM2ziGqBPspRbH29AiAWt5V5wlCC3RQnLzDRVQqgnPDdj7ZenG3BfkjvT8mvpcSe
+AWJC1WAYOeOSGFUAoiu7/IPiwAJoeGNxHIVX8WJZiv1kiFZOmtCmildf3nzCHzDN
+k1bbObvu+oQ+76us0KkiL5OhyCpwat0j53zspibKmvSByOawXyau8tif0r31X+iP
+9JjFN2kVnbRfByzpCB52RQLxPupYpgALv8XQ8SEoRopOxrXOL4NxZ57bzsGp6GvZ
+t6zmEEBEedDiTXk1XfqwfwaxMdo3ecdUJOKKQQyV1ImZ0+Q2cBvj7QiXApUrXxOJ
+AZQEAQEKAAYFAlc5/eoACgkQRprOY3VKaDq3xwvAhVvvldrwRcs7+Wd2S1e+wn0q
+Hu9XPH0d3KQ/9cJu4biX3d8FHiRrrcqN2CSSzVfg1GyQqeJWz6e8xkx+xQqiSZ/F
+zSEmV/jxmVedtj8qygZ/3ffgeRb/o/DdT93t5e5DMtmKlpCrmkIYbYXxvTAZw2NS
+SrNDqfBuYkCVLZHWEwqziLZ6XpFqxGSPKIsPb3gA5kvKKBcB9WlTSMhmbHngn7qC
+UEQlHRKvKKzevHjK37wswFMWMbny6m0aqyZ9G9LQLm8AyymYxy5PrD+gV/O1+K+o
+g4yLjH7gKWVUJLMFp5mz7t2o3jP4Bn3H2WkmV5ZEkaPUuj5rRgWOs2YtD2zdKkuZ
+tuEhWrRqIHRnC69bI4UXczwPbK/EfzHZ7GiV5qNIgJrDlRWkbHxxIQcBFiTb+q6n
+KQlGruNuFBg5Z9Im7yl09MIJYT0Kj9lpCrnNhCwv6dBP0DDRqdWU+q4d5560Y++g
+MYjN/gR0pWvZYAU7h6doCrI8LwZ3zg==
+=kCG9
+-----END PGP SIGNATURE-----
