@@ -1,0 +1,197 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 0 0 595 842
+%%DocumentPaperSizes: A4
+%%Title: timeless_sparc.ps
+%%Creator: Mihaly Barasz
+%%EndComments
+
+64 dict begin
+
+/centi 72 2.54 div def
+/cm {centi mul} bind def
+
+/width 595 def
+/height 842 def
+
+/hmargin 20 def
+/vmargin 20 def
+
+/numh 20 def
+/numv 100 def
+
+/d 4 def	% diameter
+%/sh 22 def	% horiz distance
+%/sv 32 def	% vertical distance -- computed
+
+/sv height vmargin 2 mul sub  numv 1 sub div  def
+/sh sv def
+/d sv 4 div  def
+/colw width hmargin 2 mul sub sh sub numh 1 sub div  def
+/midc colw sh sub 2 div neg def
+
+
+0.3 setlinewidth
+
+/shn sh neg def
+/svn sv neg def
+
+/column { % <n> column
+    colw % column width
+    mul
+    hmargin % left margin
+    add  % x coord
+
+    height vmargin % top margin
+    sub
+    moveto
+} bind def
+
+/kor { % <gray> kor
+    setgray
+    currentpoint
+    2 copy d 0 360 arc
+    fill
+    0 setgray
+    2 copy d 0 360 arc
+    stroke
+    moveto
+} bind def
+
+/bbo { .2 kor  sh 0 rmoveto  .2 kor } bind def
+/bwo { .2 kor  sh 0 rmoveto   1 kor } bind def
+/wbo {  1 kor  sh 0 rmoveto  .2 kor } bind def
+/wwo {  1 kor  sh 0 rmoveto   1 kor } bind def
+
+/conn {
+    currentpoint
+    sh svn rlineto
+    0 sv rlineto
+    shn svn rlineto
+    closepath stroke
+    moveto
+} bind def
+
+/bb { currentpoint conn bbo sv sub moveto } bind def
+/bw { currentpoint conn bwo sv sub moveto } bind def
+/wb { currentpoint conn wbo sv sub moveto } bind def
+/ww { currentpoint conn wwo sv sub moveto } bind def
+
+/columnNum 1 def
+/nextcolumn {
+    columnNum column
+    midc 100 rmoveto
+    0 -40 cm rlineto
+    columnNum dup column
+    1 add /columnNum exch def
+} bind def
+
+0 column
+
+/one {
+ww
+ww
+ww
+bb
+wb
+bb
+ww
+ww
+bb
+ww
+wb
+bb
+bw
+bw
+bw
+bw
+bw
+bb
+wb
+bb
+wb
+bb
+wb
+bb
+wb
+wb
+bb
+ww
+ww
+ww
+ww
+ww
+bw
+bb
+ww
+ww
+bw
+bw
+bb
+bb
+bb
+bw
+bb
+ww
+wb
+bb
+ww
+ww
+ww
+bb
+ww
+ww
+bw
+bw
+wb
+bb
+wb
+bb
+wb
+bb
+wb
+bw
+wb
+bb
+ww
+ww
+ww
+bw
+bw
+bb
+ww
+wb
+bb
+ww
+ww
+ww
+wb
+bb
+bb
+ww
+ww
+ww
+wb
+bb
+wb
+bb
+wb
+bb
+wb
+ww
+bw
+ww
+wb
+wb
+bw
+bw
+bw
+wb
+bb
+bbo
+nextcolumn
+} bind def
+
+20 { one } repeat
+
+end
+showpage
