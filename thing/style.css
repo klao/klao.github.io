@@ -1,0 +1,64 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+#play {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: #36c;
+    color: black;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#controls {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto auto;
+    grid-gap: 10px;
+    font-size: 1.5rem;
+}
+
+#controls .twoctrl {
+    border: 2px solid black;
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    background-color: rgba(50, 100, 200, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#controls .twoctrl i {
+    padding: 4px;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#controls .twoctrl i.active {
+    color: white;
+}
+
+#controls .twoctrl .space {
+    width: 6px;
+    height: 100%;
+    background-color: rgba(50, 100, 50, 1);
+}
