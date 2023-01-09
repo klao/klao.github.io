@@ -23,10 +23,13 @@ console.log(window.devicePixelRatio);
 const ourDPR = window.devicePixelRatio / pixelation;
 // Size that definitely fits and is a multiple of 16.
 // TODO: do we need the -0.5?
-const width = (((rect.width - 0.5) * ourDPR) | 0) & ~0xf;
-const height = (((rect.height - 0.5) * ourDPR) | 0) & ~0xf;
+const width = (((rect.width - 0.0) * ourDPR) | 0) & ~0xf;
+const height = (((rect.height - 0.0) * ourDPR) | 0) & ~0xf;
 const cssWidth = width / ourDPR;
 const cssHeight = height / ourDPR;
+
+document.getElementById("dpr").textContent = window.devicePixelRatio;
+document.getElementById("size").textContent = `${width}x${height}`;
 
 console.log(width, height);
 canvas.width = width;
